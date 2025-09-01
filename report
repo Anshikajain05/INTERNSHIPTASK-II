@@ -1,0 +1,34 @@
+Task 2: Real-time Collaborative Tool (Google Docs-like)
+Objective
+
+Develop a collaborative note-taking/coding platform with real-time updates using WebSockets.
+
+Implementation
+
+Technology stack: Node.js, Express.js, Socket.IO, Vanilla JS frontend.
+
+Features implemented:
+
+Multi-user support with room-based collaboration.
+
+Real-time synchronization of text edits.
+
+Debouncing keystrokes to reduce network traffic.
+
+Broadcasting updates only to users in the same room.
+
+Project structure improvements:
+
+Separated server.js and sockets.js.
+
+Utility functions for logging and debouncing.
+
+Public folder for frontend (HTML, CSS, JS).
+
+Impact
+
+Reduced network overhead with debouncing.
+
+Increased readability & maintainability through modular structure.
+
+Enabled scalability for future integration with CRDT or persistent storage.
